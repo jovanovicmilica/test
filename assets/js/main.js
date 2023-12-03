@@ -1,6 +1,6 @@
 
 let url=window.location.pathname;
- console.log(window.location)
+console.log(window.location)
 
 getHeader();
 getNavigation();
@@ -91,13 +91,13 @@ function getNavigation(){
 
 
 }
-if(url!='/test/index.html' && url!='/test/'){
+if(url!='/index.html' && url!='/'){
     // let curentUrl=url.split('/')[1]
     // let index=links.indexOf(curentUrl);
 
     // document.getElementById('currentPage').innerHTML=linksNames[index];
 }
-if(url=='/test/index.html' || url=='/test/'){
+if(url=='/index.html' || url=='/'){
     var moviesNow=['The Marvels','Five Nights at Freddy\'s','Priscilla','Killers Of The Flower Moon'];
     var imagesNow=['marvel.jpeg','fiveNights.jpeg','priscila.jpeg','killers.png'];
 
@@ -127,7 +127,7 @@ function getMovies(movies,images,divForPrint){
 
     document.getElementById(divForPrint).innerHTML=print;
 
-    if(url=='/test/movies.html'){
+    if(url=='/movies.html'){
     
         $('#movies').slick({
             infinite: true,
@@ -155,7 +155,7 @@ function getMovies(movies,images,divForPrint){
 
 
 var theatres=['Regal Manassas','Regal Virginia Gateway','Regal Fox 4DX & IMAX','Regal Fairfax Towne Center','Regal Dulles Town Center'];
-if(url=='/test/theatres.html'){
+if(url=='/theatres.html'){
     var theatres=['Regal Manassas','Regal Virginia Gateway','Regal Fox 4DX & IMAX','Regal Fairfax Towne Center','Regal Dulles Town Center'];
     var locations=['11380 Bulloch Dr, Manassas, VA, 20109','8001 Gateway Promenade Place, Gainesville, VA, 20155','22875 Brambleton Plaza, Ashburn, VA, 20148 ','4110 West Ox Rd, Suite 12110, Fairfax, VA, 22033','21100 Dulles Town Cir, Ste 203, Sterling, VA, 20164'];
     var distance=[11.5,15.3,17.6,20.5,20.6,22.9];
@@ -171,7 +171,7 @@ if(url=='/test/theatres.html'){
     }
 }
 
-if(url=='/test/movies.html'){
+if(url=='/movies.html'){
     var movies=['The Marvels','Five Nights at Freddy\'s','Priscilla','Killers Of The Flower Moon','Medicine Man: The Stan Brock Story','Saving Private Ryan 25th Anniversary'];
     var images=['marvel.jpeg','fiveNights.jpeg','priscila.jpeg','killers.png','medicineMan.png','savingPrivate.png'];
 
@@ -179,7 +179,7 @@ if(url=='/test/movies.html'){
 }
 
 
-if(url=='/test/events.html'){
+if(url=='/events.html'){
     let events=['Educational and Field Trips','Film Festivals','Birthday Parties'];
     let text=['Regal partners with IMAX to offer larger-than-life learning experiences. Educational movies on a huge IMAX screen perfectly blend fun and learning for your next field trip.','Learn more about the film festivals Regal hosts every year and fill out the request form if you\'re interested in hosting your own!','Some Regal theatres have space for birthday parties. To inquire about a birthday party, click the button below and fill out a form.']
     let images=['trips.png','festivals.jpeg','birthdays.png'];
@@ -275,7 +275,7 @@ function getTheatresContact(){
     document.getElementById('theatreName').innerHTML+=print;
 }
 
-if(url=='/test/contact.html'){
+if(url=='/contact.html'){
     getTheatresContact();
     getSlider();
 }
