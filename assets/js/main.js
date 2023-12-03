@@ -115,7 +115,7 @@ function getMovies(movies,images,divForPrint){
     for(let i=0;i<movies.length;i++){
         print+=`<div class="col-5 col-md-3 movie`;
         
-                if(url=='/movies.html'){
+                if(url=='/test/movies.html'){
                     print+=` mx-3`;
                 }
         
@@ -127,7 +127,7 @@ function getMovies(movies,images,divForPrint){
 
     document.getElementById(divForPrint).innerHTML=print;
 
-    if(url=='/movies.html'){
+    if(url=='/test/movies.html'){
     
         $('#movies').slick({
             infinite: true,
