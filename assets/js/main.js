@@ -92,7 +92,8 @@ function getNavigation(){
 
 }
 if(url!='/test/index.html' && url!='/test/'){
-    // let curentUrl=url.split('/')[1]
+    let curentUrl=url.split('/test/')[1];
+    console.log(currentUrl);
     // let index=links.indexOf(curentUrl);
 
     // document.getElementById('currentPage').innerHTML=linksNames[index];
