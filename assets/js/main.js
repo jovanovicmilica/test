@@ -1,7 +1,6 @@
 
 let url=window.location.pathname;
 // console.log(window.location)
-alert("TU")
 
 getHeader();
 getNavigation();
