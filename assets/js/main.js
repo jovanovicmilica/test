@@ -1,6 +1,6 @@
 
 let url=window.location.pathname;
-console.log(window.location)
+// console.log(window.location)
 
 getHeader();
 getNavigation();
@@ -92,10 +92,10 @@ function getNavigation(){
 
 }
 if(url!='/test/index.html' && url!='/test/'){
-    let curentUrl=url.split('/')[1]
-    let index=links.indexOf(curentUrl);
+    // let curentUrl=url.split('/')[1]
+    // let index=links.indexOf(curentUrl);
 
-    document.getElementById('currentPage').innerHTML=linksNames[index];
+    // document.getElementById('currentPage').innerHTML=linksNames[index];
 }
 if(url=='/test/index.html' || url=='/test/'){
     var moviesNow=['The Marvels','Five Nights at Freddy\'s','Priscilla','Killers Of The Flower Moon'];
