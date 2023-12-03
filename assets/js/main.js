@@ -92,10 +92,6 @@ function getNavigation(){
 
 }
 if(url!='/index.html' && url!='/'){
-    // let curentUrl=url.split('/')[1]
-    // let index=links.indexOf(curentUrl);
-
-    // document.getElementById('currentPage').innerHTML=linksNames[index];
 }
 if(url=='/index.html' || url=='/'){
     var moviesNow=['The Marvels','Five Nights at Freddy\'s','Priscilla','Killers Of The Flower Moon'];
