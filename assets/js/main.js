@@ -106,8 +106,8 @@ if(url=='/index.html' || url=='/'){
     var newImages=['killers.png','medicineMan.png','savingPrivate.png','priscila.jpeg'];
 
 
-    getMovies(moviesNow,imagesNow,'nowPlaying');
-    getMovies(newMovies,newImages,'newMovies');
+    //getMovies(moviesNow,imagesNow,'nowPlaying');
+    //getMovies(newMovies,newImages,'newMovies');
 }
 
 function getMovies(movies,images,divForPrint){
