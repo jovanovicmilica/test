@@ -1,0 +1,138 @@
+body{
+    background-color: #111111;
+}
+
+#navigationMobileHolder{
+    display: none;
+    text-align: right;
+}
+#navigationMobile{
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    background-color: #111111;
+    z-index: 99;
+    padding: 20px;
+    width: 100%;
+}
+#navigationMobileHolder li{
+    text-align: right;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+#navigation{
+    width: 100%;
+}
+.orangeLinks{
+    color: #ff6a00!important;
+}
+.borderOrange{
+    border-bottom: 1px solid #ff6a00;
+}
+#btnNavigation{
+    position: relative;
+}
+#header{
+    border-bottom: 1px solid #ff6a00;
+}
+.scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+.slick-next {
+    right: -25px;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev {
+    left: -25px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 25px;
+    line-height: 1;
+    color: #f8f9fa;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+
+}
+.slick-prev:before {
+    content: '<';
+}
+.slick-next:before {
+    content: '>';
+}
+.slick-dots{
+    display: none!important;
+}
+.form-control,.form-select{
+    background-color: #111111;
+    color: #f8f9fa;
+    border: 1px solid #ff6a00;
+}
+.form{
+    border: 1px solid #ff6a00;
+}
+input[type=button]{
+    background-color: #ff6a00;
+}
+#modal{
+    background-color: #ff6a00;
+    border-radius: 2px;
+    position: fixed;
+    top: 40%;
+    padding: 50px;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+}
+.closeModal{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+img{
+    border-radius: 2px;
+}
+#footer{
+    padding: 15px;
+    border-top: 1px solid #ff6a00;
+}
+#footer p,h3,a{
+    color: #f8f9fa;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ff6a00;
+}
+@media screen and (max-width:640px) {
+    .navigationHolder{
+        display: none;
+    }
+    #navigationMobileHolder{
+        display: block;
+    }
+}
