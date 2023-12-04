@@ -285,7 +285,7 @@ $("#name").keyup(checkName);
 
 
 function checkName(){
-    let nameRegex=/^[A-Z][a-z]{2,}\s[A-Z][a-z]{2,}(\s[A-Z][a-z]{2,})?$/;
+    let nameRegex=/^[A-ZČĆŠĐŽ][a-zčćšđž]{2,}\s[A-ZČĆŠĐŽ][a-zčćšđž]{2,}(\s[A-ZČĆŠĐŽ][a-zčćšđž]{2,})?$/;
     //ovde dodati srpske karaktere
 
     let nameValue=$("#name").val(); 
