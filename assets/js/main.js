@@ -80,7 +80,7 @@ function getNavigation(){
         if(links[i]==url.split('/test/')[1]){
             print+=" orangeLinks";
         }
-        if(links[i]=='index.html' && url=='/'){
+        if(links[i]=='index.html' && url=='/test/'){
             print+=" orangeLinks";
         }
         print+="'>"+linksNames[i]+"</a></li>";
