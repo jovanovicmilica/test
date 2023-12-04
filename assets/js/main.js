@@ -1,6 +1,6 @@
 
 let url=window.location.pathname;
-//console.log(window.location)
+console.log(window.location)
 
 getHeader();
 getNavigation();
