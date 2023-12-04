@@ -75,6 +75,7 @@ function getNavigation(){
     var links=['index.html','theatres.html','movies.html','events.html','contact.html','author.html'];
 
     let print='';
+    console.log(url)
     for(let i=0;i<linksNames.length;i++){
         print+="<li class='my-2'><a href='"+links[i]+"' class='text-decoration-none text-light";
         if(links[i]==url.split('/')[1]){
