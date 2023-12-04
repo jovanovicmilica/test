@@ -78,7 +78,7 @@ function getNavigation(){
     console.log(url)
     for(let i=0;i<linksNames.length;i++){
         print+="<li class='my-2'><a href='"+links[i]+"' class='text-decoration-none text-light";
-        if(links[i]==url.split('/')[1]){
+        if(links[i]==url.split('/test/')[1]){
             print+=" orangeLinks";
         }
         if(links[i]=='index.html' && url=='/'){
